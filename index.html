@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favicon-32x32.png" type="image/x-icon">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/610db7461b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo1.jpeg" alt="img" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fa " onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fa" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>FrontEnd Devloper</p>
+                <h1>Hi, I am <span>Sunder </span><br> Singh from <span id="span1">In</span>d<span id="span2">ia</span>.
+                </h1>
+                <a href="image/SUNDER_SINGH Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section--- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/sunder1photo1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> <span>A</span>bout <span>M</span>e</h1>
+                    <p>B.E in Computer science, with experience in working with Java, passionate about problem solving
+                        and
+                        engineering. Can work well under pressure. Passionate individual with great interpersonal and
+                        communication
+                        skills. Have a knowledge about frontend Development.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-title" onclick="opentab('skills')">Skills
+                        <p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br> Programing in Java</li>
+                            <li><span>Web Devlopment</span><br> Web App Devlopment</li>
+                            <li><span> App Devlopment</span><br> Building basic Anroid apps</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2022</span> <br> Web Devlopment Internship at IC. Solutions </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2023</span><br> CSE from Sir M. Visvesvaraya Institute of Technology</li>
+                            <li><span>2019</span><br>12th std. from Army Public School (PRTC)</li>
+                            <li><span>2017</span><br>10th std. from Army Public School (PRTC)</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><span>M</span>y <span>S</span>ervices </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Can help organisation in building great websites for clients.</p>
+                    <a href="https://github.com/sundergithub1999" target="_blank" class="learn">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>UI/UX design</h2>
+                    </h2>
+                    <p>Illustrating design ideas using storyboards, process flows and sitemaps.Designing graphic user interface elements, like menus, tabs and widgets</p>
+                    <a href="https://github.com/sundergithub1999" target="_blank" class="learn">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code-fork"></i>
+                    <h2>App Design</h2>
+                    <p>Build and maintain web and mobile applications for our organization. 
+                        Collaborate with the rest of the team to ensure applications align with organizational goals as well as customer needs</p>
+                    <a href="https://github.com/sundergithub1999" target="_blank" class="learn">Learn More </i> </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title"><span>M</span>y <span>W</span>ork</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png" alt="img">
+                    <div class="layer">
+                        <h3>Crypto Tracker</h3>
+                        <p>This app fetch the data from API and display the Crypto rate on the website</p>
+                        <a href="https://sundergithub1999.github.io/Crypto-Tracker/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/work-2.png" alt="img">
+                    <div class="layer">
+                        <h3>To-Do-List</h3>
+                        <p>This is Web app which help the user to add the TODo list of his choice . It is developed using Html ,Css and Javascript.</p>
+                        <a href="https://sundergithub1999.github.io/To-DO-List/toDoList.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/work-3.png" alt="img">
+                    <div class="layer">
+                        <h3>Anime-Generator</h3>
+                        <p>This webapp fetch the anime image from the Api and display the anime with the name on webpage
+                            when user click on button generate.</p>
+                        <a href="https://sundergithub1999.github.io/Anime-Generator/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/sundergithub1999" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="sub-title"><span>C</span>ontact <span>M</span>e</h1>
+                    <p><a href="https://mail.google.com/mail/u/0/#inbox"> <i class="fa-solid fa-paper-plane"></i></a></i> sundardevki@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9113590955</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/meme4era/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/sundergithub1999" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sunder-singh-84430a203/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                <form class="form" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required id="name">
+                    <input type="email" name="Email" placeholder="Your Email" required id="email">
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button class="btn btn2" type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">Copyright © Sunder. Made by<i class="fa-solid fa-circle-user"></i>Sunder Singh </div>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzJMouL9TR8AH5omQNkoXYx-12RpsqLfGTa0syebakm7yDN7Wd_VR3580-aoXvLv7O83A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent sucessfully!"
+                setTimeout(() => {
+                    msg.innerHTML=" "
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>
